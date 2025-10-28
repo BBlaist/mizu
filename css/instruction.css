@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Archivo";
-  src: url("../Fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf")
+  src: url("/Fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf")
     format("truetype");
   font-weight: 100 900;
   font-stretch: 62.5% 125%;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Archivo";
-  src: url("../Fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf")
+  src: url("/Fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf")
     format("truetype");
   font-weight: 100 900;
   font-stretch: 62.5% 125%;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "Archivo Black";
-  src: url("../Fonts/Archivo_Black/ArchivoBlack-Regular.ttf") format("truetype");
+  src: url("/Fonts/Archivo_Black/ArchivoBlack-Regular.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
