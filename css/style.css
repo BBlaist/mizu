@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Archivo";
+    src: url("../Fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-stretch: 62.5% 125%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Archivo";
+    src: url("../Fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-stretch: 62.5% 125%;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Archivo Black";
+    src: url("../Fonts/Archivo_Black/ArchivoBlack-Regular.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: "Archivo", sans-serif;
+    color: rgb(248, 248, 248);
+    background: #7dfbff;
+    background: #7dfbff;
+    background: linear-gradient(145deg,
+            #3c9598 0%,
+            rgba(126, 220, 255, 1) 50%,
+            rgba(131, 180, 255, 1) 78%);
+}
+
+.navTop {
+    height: 8vh;
+    padding: 0 5rem 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #52627e;
+    width: 100%;
+    min-width: 100%;
+}
+
+.navTop img {
+    width: 50px;
+    height: auto;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navLinks a {
+    width: 120px;
+    background-color: #7edcff;
+    text-align: center;
+    margin-left: 20px;
+    padding: 7px 0 7px 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 4px solid #7edcff;
+}
+
+.navLinks a:last-child {
+    background-color: #83b4ff;
+    border: 4px solid #83b4ff;
+}
+
+.navLinks a:hover {
+    border: 4px solid #7dfbff;
+}
+
+footer {
+    background-color: #21202e;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.footerWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3vh 0 3vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerLeft img {
+    width: 30px;
+    height: auto;
+}
+
+.footerLeft p {
+    font-size: smaller;
+}
+
+.socials {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.socials a {
+    display: contents;
+}
+
+.socials img {
+    width: 30px;
+    height: auto;
+}
+
+.bottomNav {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    gap: 0.5rem;
+}
+
+.bottomNav a {
+    color: rgb(163, 163, 163);
+    font-size: 0.9rem;
+    padding: 0 8px 0 8px;
+}
