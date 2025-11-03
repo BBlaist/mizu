@@ -110,10 +110,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 50px;
+    padding: 100px 200px;
     text-align: center;
-
 }
+
 
 .why {
     background-color: #5c627e;
@@ -121,7 +121,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 50px;
+    padding: 40px 200px;
     text-align: center;
 }
 
@@ -135,7 +135,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 50px;
+    padding: 40px 200px;
     text-align: center;
 }
 
