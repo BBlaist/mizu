@@ -33,7 +33,7 @@ body {
     background: #7dfbff;
     background: #7dfbff;
     background: linear-gradient(145deg,
-            #3c9598 0%,
+            #00f7ff 0%,
             rgba(126, 220, 255, 1) 50%,
             rgba(131, 180, 255, 1) 78%);
 }
@@ -97,7 +97,16 @@ h2 {
     padding-bottom: 40px;
 }
 
-.product-description {}
+.product-description {
+    margin: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.product-description img {
+    width: 300px;
+    height: auto;
+}
 
 footer {
     background-color: #21202e;
