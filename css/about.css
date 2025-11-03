@@ -108,8 +108,12 @@ main {
   align-items: center;
   padding: 100px 200px;
   text-align: center;
+  
 }
 
+.mission p {
+  font-family: "Archivo Black", sans-serif;
+}
 
 .why {
   background-color: #5c627e;
@@ -131,9 +135,12 @@ main {
   align-items: center;
   padding: 40px 200px;
   text-align: center;
+  text-shadow: 1px 1px rgb(79, 79, 79);
 }
 
-
+.why p, .how p {
+  font-size: 1rem;
+}
 
 footer {
   background-color: #21202e;
