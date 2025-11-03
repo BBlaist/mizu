@@ -82,11 +82,11 @@ header {
     align-items: center;
     border-bottom: 1px solid #83b4ff;
     background-image: url("../images/droplet-background.jpg");
-
+    height: 350px;
 }
 
 h1 {
-    margin: 80px 0px 0px;
+    margin: 120px 0px 0px;
     font-family: "Archivo Black", sans-serif;
     font-size: 60px;
 }
@@ -98,8 +98,8 @@ h2 {
 .product-description {
     padding: 50px 0px;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
     font-family: "Archivo Black", sans-serif;
     background: #7dfbff;
     background: #7dfbff;
@@ -110,7 +110,7 @@ h2 {
 }
 
 .product-description p {
-    width: 300px;
+    width: 400px;
 }
 
 .product-description img {
@@ -118,11 +118,18 @@ h2 {
     height: auto;
 }
 
+p {
+    margin: 0px;
+}
+
 .about-us {
-    width: 300px;
+    padding: 50px;
+    width: 800px;
     font-family: "Archivo Black", sans-serif;
     background-color: #52627e;
-
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer {
