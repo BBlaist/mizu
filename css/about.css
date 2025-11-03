@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Archivo";
-  src: url("../Fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf")
-    format("truetype");
+  src: url("../Fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: 100 900;
   font-stretch: 62.5% 125%;
   font-style: normal;
@@ -9,8 +8,7 @@
 
 @font-face {
   font-family: "Archivo";
-  src: url("../Fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf")
-    format("truetype");
+  src: url("../Fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: 100 900;
   font-stretch: 62.5% 125%;
   font-style: italic;
@@ -34,12 +32,10 @@ body {
   color: rgb(248, 248, 248);
   background: #7dfbff;
   background: #7dfbff;
-  background: linear-gradient(
-    145deg,
-    #3c9598 0%,
-    rgba(126, 220, 255, 1) 50%,
-    rgba(131, 180, 255, 1) 78%
-  );
+  background: linear-gradient(145deg,
+      #3c9598 0%,
+      rgba(126, 220, 255, 1) 50%,
+      rgba(131, 180, 255, 1) 78%);
 }
 
 .navTop {
@@ -86,57 +82,55 @@ body {
 }
 
 header {
-    width: 100%;
-    height: 40vh;
+  width: 100%;
+  height: 40vh;
 }
 
 header img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(3px);
-   
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mission {
-    background-color: #42455f;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 200px;
-    text-align: center;
+  background-color: #42455f;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 200px;
+  text-align: center;
 }
 
 
 .why {
-    background-color: #5c627e;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 200px;
-    text-align: center;
+  background-color: #5c627e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 200px;
+  text-align: center;
 }
 
 .how {
-    background: linear-gradient(
-    145deg,
-    rgba(126, 220, 255, 1) 50%,
-    rgba(131, 180, 255, 1) 78%
-    );
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 200px;
-    text-align: center;
+  background: linear-gradient(145deg,
+      rgba(126, 220, 255, 1) 50%,
+      rgba(131, 180, 255, 1) 78%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 200px;
+  text-align: center;
 }
 
 
@@ -176,6 +170,7 @@ footer {
   display: flex;
   gap: 0.5rem;
 }
+
 .socials a {
   display: contents;
 }
@@ -196,4 +191,133 @@ footer {
   color: rgb(163, 163, 163);
   font-size: 0.9rem;
   padding: 0 8px 0 8px;
+}
+
+/*Begin media*/
+
+@media (max-width: 900px) {
+  .navTop {
+    padding: 0 2rem;
+  }
+
+  .mission {
+    padding: 0px 20px;
+  }
+
+  .why {
+    padding: 0px 20px;
+  }
+
+  .how {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navTop {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .navLinks {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .navLinks a {
+    margin-left: 0;
+  }
+
+  .mission {
+    padding: 0px 20px;
+  }
+
+  .why {
+    padding: 0px 20px;
+  }
+
+  .how {
+    padding: 0px 20px;
+  }
+
+  .footerWrapper {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .footerLeft {
+    flex-direction: column;
+  }
+
+  .bottomNav {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .navTop img {
+    width: 80px;
+  }
+
+  .mission {
+    padding: 0px 20px;
+  }
+
+  .why {
+    padding: 0px 20px;
+  }
+
+  .how {
+    padding: 0px 20px;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .navTop {
+    padding: 0.5rem;
+  }
+
+  .navTop img {
+    width: 60px;
+  }
+
+  .navLinks a {
+    width: 100px;
+    font-size: 0.85rem;
+    padding: 5px 0;
+  }
+
+  .mission {
+    padding: 0px 20px;
+  }
+
+  .why {
+    padding: 0px 20px;
+  }
+
+  .how {
+    padding: 0px 20px;
+  }
+
+  .footerLeft img {
+    width: 70px;
+  }
+
+  .footerLeft p {
+    font-size: 0.75rem;
+  }
+
+  .bottomNav a {
+    font-size: 0.8rem;
+  }
 }
