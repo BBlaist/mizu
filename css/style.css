@@ -30,12 +30,7 @@ body {
     margin: 0;
     font-family: "Archivo", sans-serif;
     color: rgb(248, 248, 248);
-    background: #7dfbff;
-    background: #7dfbff;
-    background: linear-gradient(145deg,
-            #3c9598 0%,
-            rgba(126, 220, 255, 1) 50%,
-            rgba(131, 180, 255, 1) 78%);
+    background: #52627e;
 }
 
 .navTop {
@@ -79,6 +74,62 @@ body {
 
 .navLinks a:hover {
     border: 4px solid #7dfbff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #83b4ff;
+    background-image: url("../images/droplet-background.jpg");
+    height: 350px;
+}
+
+h1 {
+    margin: 120px 0px 0px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    padding-bottom: 40px;
+}
+
+.product-description {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Archivo Black", sans-serif;
+    background: #7dfbff;
+    background: #7dfbff;
+    background: linear-gradient(145deg,
+            #00f7ff 0%,
+            rgba(126, 220, 255, 1) 50%,
+            rgba(131, 180, 255, 1) 78%);
+}
+
+.product-description p {
+    width: 400px;
+}
+
+.product-description img {
+    width: 300px;
+    height: auto;
+}
+
+p {
+    margin: 0px;
+}
+
+.about-us {
+    padding: 50px;
+    width: 800px;
+    font-family: "Archivo Black", sans-serif;
+    background-color: #52627e;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer {
