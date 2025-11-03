@@ -43,7 +43,7 @@ body {
 }
 
 .navTop {
-  height: 8vh;
+  height: 75px;
   padding: 0 5rem 0 5rem;
   display: flex;
   justify-content: space-between;
@@ -54,7 +54,7 @@ body {
 }
 
 .navTop img {
-  width: 50px;
+  width: 100px;
   height: auto;
 }
 
@@ -112,7 +112,7 @@ main {
     align-items: center;
     padding: 0px 50px;
     text-align: center;
-    
+
 }
 
 .why {

@@ -39,7 +39,7 @@ body {
 }
 
 .navTop {
-    height: 8vh;
+    height: 75px;
     padding: 0 5rem 0 5rem;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@ body {
 }
 
 .navTop img {
-    width: 50px;
+    width: 100px;
     height: auto;
 }
 
