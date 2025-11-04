@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Archivo";
-  src: url("../Fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
+  src: url("../Fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-stretch: 62.5% 125%;
   font-style: normal;
@@ -8,7 +9,8 @@
 
 @font-face {
   font-family: "Archivo";
-  src: url("../Fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  src: url("../Fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-stretch: 62.5% 125%;
   font-style: italic;
@@ -32,10 +34,12 @@ body {
   color: rgb(248, 248, 248);
   background: #7dfbff;
   background: #7dfbff;
-  background: linear-gradient(145deg,
-      #3c9598 0%,
-      rgba(126, 220, 255, 1) 50%,
-      rgba(131, 180, 255, 1) 78%);
+  background: linear-gradient(
+    145deg,
+    #3c9598 0%,
+    rgba(126, 220, 255, 1) 50%,
+    rgba(131, 180, 255, 1) 78%
+  );
 }
 
 .navTop {
@@ -91,7 +95,6 @@ header img {
   height: 100%;
   object-fit: cover;
   filter: blur(3px);
-
 }
 
 main {
@@ -108,7 +111,6 @@ main {
   align-items: center;
   padding: 100px 200px;
   text-align: center;
-  
 }
 
 .mission p {
@@ -126,9 +128,11 @@ main {
 }
 
 .how {
-  background: linear-gradient(145deg,
-      rgba(126, 220, 255, 1) 50%,
-      rgba(131, 180, 255, 1) 78%);
+  background: linear-gradient(
+    145deg,
+    rgba(126, 220, 255, 1) 50%,
+    rgba(131, 180, 255, 1) 78%
+  );
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -138,7 +142,8 @@ main {
   text-shadow: 1px 1px rgb(79, 79, 79);
 }
 
-.why p, .how p {
+.why p,
+.how p {
   font-size: 1rem;
 }
 
@@ -165,7 +170,7 @@ footer {
 }
 
 .footerLeft img {
-  width: 30px;
+  width: 100px;
   height: auto;
 }
 
