@@ -259,6 +259,24 @@ footer {
         padding: 5px 0;
     }
 
+    h1 {
+        width: 80vw;
+    }
+
+    .product-description {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    p {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .about-us {
+        width: 90vw;
+    }
+
     .footerLeft img {
         width: 70px;
     }
