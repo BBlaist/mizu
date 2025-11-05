@@ -124,6 +124,7 @@ h2 {
 .product-description img {
   width: 300px;
   height: auto;
+  border-radius: 50%;
 }
 
 p {
