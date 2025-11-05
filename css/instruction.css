@@ -157,11 +157,11 @@ main {
 }
 
 .leftSide p {
-  border: 2px inset rgb(93, 183, 182);
+  border: 1px inset rgb(0, 0, 0);
 }
 
 .rightSide p {
-  border: 2px outset rgb(93, 183, 182);
+  border: 1px outset rgb(0, 0, 0);
 }
 
 .rightSide {
