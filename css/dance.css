@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-image: url("../images/pretty.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.dance {
+  display: block;
+  margin: 3rem auto;
+  width: 420px;
+  height: auto;
+  transform-origin: 50% 60%;
+  will-change: transform;
+  animation: tilt 1s ease-in-out infinite alternate;
+}
+
+@keyframes tilt {
+  from {
+    transform: rotate(-12deg);
+  }
+  to {
+    transform: rotate(12deg);
+  }
+}
+
+.dance:hover {
+  animation-duration: 0.5s;
+}
+
+.danceWrapper {
+  display: flex;
+  justify-content: center;
+  height: 480px;
+}
